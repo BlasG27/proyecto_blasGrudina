@@ -1,12 +1,8 @@
 /* ---------------ESTILOS EN GENERAL----------------- */
-<<<<<<< HEAD
-
-=======
 *{
     padding: 0;
     margin: 0;
 }
->>>>>>> develop
 body{
     font-family: 'Fira Sans', sans-serif;
     background-color: rgb(204, 204, 17);
@@ -19,12 +15,7 @@ body{
 .nav{
     background-color: yellow;
     border-style: solid;
-<<<<<<< HEAD
-    border-color: black;
-    border-radius: 10px;
-=======
     border: black;
->>>>>>> develop
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,10 +25,7 @@ body{
     margin: 0 5px;
 }
 .nav-li a{
-<<<<<<< HEAD
-=======
     height: 100px;
->>>>>>> develop
     text-decoration: none;
 }
 /* -----------------ESTILOS DE MI HEADER------------- */
@@ -387,7 +375,7 @@ header p{
     font-size: 30px;
 }
 
-.encabezado h1, p{
+.encabezado h1,.encabezado p{
     animation-name: fade-in;
     animation-timing-function: ease;
     animation-duration: 1.2s;
