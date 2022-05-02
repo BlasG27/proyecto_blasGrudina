@@ -373,7 +373,7 @@ header p{
     font-size: 30px;
 }
 
-.encabezado h1, p{
+.encabezado h1,.encabezado p{
     animation-name: fade-in;
     animation-timing-function: ease;
     animation-duration: 1.2s;
