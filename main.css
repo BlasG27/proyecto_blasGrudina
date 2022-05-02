@@ -369,9 +369,26 @@ main{
     align-items: center;
 }
 
-
 header p{
     font-size: 30px;
+}
+
+.encabezado h1, p{
+    animation-name: fade-in;
+    animation-timing-function: ease;
+    animation-duration: 1.2s;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translatex(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
 }
 
     /* ESTILOS DE MI MAIN */
