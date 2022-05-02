@@ -376,20 +376,17 @@ main{
 .encabezado{
     font-size: 35px;
     height: 320px;
-<<<<<<< HEAD
-=======
+
     display: flex;
     justify-content: center;
     align-items: center;
->>>>>>> develop
+    
 }
 
 header p{
     font-size: 30px;
 }
 
-<<<<<<< HEAD
-=======
 .encabezado h1, p{
     animation-name: fade-in;
     animation-timing-function: ease;
@@ -408,7 +405,6 @@ header p{
 
 }
 
->>>>>>> develop
     /* ESTILOS DE MI MAIN */
     #main2{
         display: block;
@@ -459,8 +455,6 @@ nav ul{
 .nav-li{
     display: inline;
     margin: 0 15px;
-<<<<<<< HEAD
-=======
     transition-duration: .5;
     transition-delay: .2;
     transition-timing-function: ease;
@@ -473,7 +467,6 @@ nav ul{
 
 .nav-li a:hover{
     color: white;
->>>>>>> develop
 }
 
 .nav-li a{
