@@ -1,5 +1,12 @@
 /* ---------------ESTILOS EN GENERAL----------------- */
+<<<<<<< HEAD
 
+=======
+*{
+    padding: 0;
+    margin: 0;
+}
+>>>>>>> develop
 body{
     font-family: 'Fira Sans', sans-serif;
     background-color: rgb(204, 204, 17);
@@ -12,8 +19,12 @@ body{
 .nav{
     background-color: yellow;
     border-style: solid;
+<<<<<<< HEAD
     border-color: black;
     border-radius: 10px;
+=======
+    border: black;
+>>>>>>> develop
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +34,10 @@ body{
     margin: 0 5px;
 }
 .nav-li a{
+<<<<<<< HEAD
+=======
+    height: 100px;
+>>>>>>> develop
     text-decoration: none;
 }
 /* -----------------ESTILOS DE MI HEADER------------- */
@@ -361,12 +376,39 @@ main{
 .encabezado{
     font-size: 35px;
     height: 320px;
+<<<<<<< HEAD
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> develop
 }
 
 header p{
     font-size: 30px;
 }
 
+<<<<<<< HEAD
+=======
+.encabezado h1, p{
+    animation-name: fade-in;
+    animation-timing-function: ease;
+    animation-duration: 1.2s;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translatex(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+
+>>>>>>> develop
     /* ESTILOS DE MI MAIN */
     #main2{
         display: block;
@@ -417,6 +459,21 @@ nav ul{
 .nav-li{
     display: inline;
     margin: 0 15px;
+<<<<<<< HEAD
+=======
+    transition-duration: .5;
+    transition-delay: .2;
+    transition-timing-function: ease;
+}
+
+.nav-li:hover{
+    background-color: black;
+    border: solid 1px;
+}
+
+.nav-li a:hover{
+    color: white;
+>>>>>>> develop
 }
 
 .nav-li a{
