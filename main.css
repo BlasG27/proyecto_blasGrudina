@@ -5,10 +5,10 @@
 }
 body{
     font-family: 'Fira Sans', sans-serif;
-    background-color: rgb(204, 204, 17);
+    background-color: rgb(241, 241, 229);
 }
 .resaltar{
-    color: rgb(255, 230, 0);
+    color: rgb(177, 177, 53);
 }
 /* -------------ESTILOS DE MI NAV------------------ */
 
@@ -27,6 +27,7 @@ body{
 .nav-li a{
     height: 100px;
     text-decoration: none;
+    color: black;
 }
 /* -----------------ESTILOS DE MI HEADER------------- */
 
@@ -426,10 +427,18 @@ header p{
 /* CONFIGURACION MEDIA QUERIE PARA DISPOSITIVOS 769PX */
 
 @media screen and (min-width:769px) {
+
+    .barraDeNav{
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
     
 .nav{
     align-items: center;
     justify-content: space-between;
+    width: 80%;
 }
 nav h2{
     margin: 30px 15px;
@@ -440,7 +449,7 @@ nav ul{
 }
 .nav-li{
     display: inline-block;
-    margin: 0 15px;
+
     transition-duration: .5;
     transition-delay: .2;
     transition-timing-function: ease;
@@ -456,7 +465,8 @@ nav ul{
     text-transform: uppercase;
     height: 88px;
     line-height: 88px;
-    
+    width: 88px;
+    text-align: center;
 }
 
 .nav-li a:hover{
