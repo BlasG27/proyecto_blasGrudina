@@ -441,7 +441,7 @@ nav ul{
     margin: 0 15px;
 }
 .nav-li{
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
     transition-duration: .5;
     transition-delay: .2;
@@ -450,16 +450,21 @@ nav ul{
 
 .nav-li:hover{
     background-color: black;
-    border: solid 1px;
+}
+
+.nav-li a{
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    height: 88px;
+    line-height: 88px;
+    
 }
 
 .nav-li a:hover{
     color: white;
 }
 
-.nav-li a{
-    text-decoration: none;
-}
 
 /* ESTILOS DE MI FOOTER(generales) */
 
