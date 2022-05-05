@@ -12,20 +12,46 @@ body{
 }
 /* -------------ESTILOS DE MI NAV------------------ */
 
+.barraDeNav{
+    background-color: yellow;
+}
+
 .nav{
     background-color: yellow;
-    border-style: solid;
-    border: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    line-height: 70px;
+    font-size: 1.5rem;
 }
-.nav-li{
+
+.nav ul{
+    width: auto;
+}
+
+.nav-item{
     display: block;
     margin: 0 5px;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
 }
-.nav-li a{
-    height: 100px;
+
+.nav-link{
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+}
+
+.nav-item:hover{
+    background-color: black;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+.nav-item .nav-link{
+    height: 90px;
     text-decoration: none;
     color: black;
 }
@@ -35,6 +61,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .encabezado h1{
@@ -59,7 +86,7 @@ header p{
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
-    width: 300px;
+    width: 280px;
     font-size: 50px;
     display: flex;
     align-items: center;
@@ -71,7 +98,7 @@ header p{
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
-    width: 300px;
+    width: 280px;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -117,9 +144,6 @@ header p{
     align-items: center;
 }
 
-.main-nosotros div p{
-    font-size: 20px;
-}
 .about-imagen{
     width: 300px;
 }
@@ -128,7 +152,7 @@ header p{
 }
 
 .about p{
-    margin: 40px;
+    margin: 20px;
     font-size: 35px;
 }
 
@@ -140,40 +164,19 @@ header p{
 
 /* -----------ESTILOS DE MI MAIN, PARTE GIFTCARD-------------- */
 
-#giftcard{
-    font-size: 30px;
-    text-align: center;
-}
-
-.giftcard1{
-    height: 300px;
-}
-
 .apartado{
     display: flex;
+    justify-content: space-between;
 }
 
 .apartado p{
-    font-size: 30px ;
+    font-size: 35px ;
+    text-align: center;
+} 
+
+#giftcard{
     text-align: center;
 }
-
-.main-giftcard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.main-giftcard div{
-    margin:0 30px;
-}
-
-.main-giftcard div p{
-    font-size: 30px;
-}
-
 /* --------------------MAIN PRODUCTOS---------------------- */
 
 main{
@@ -283,19 +286,8 @@ main{
 
 /* CONFIGURACION MEDIA QUERIE PARA DISPOSITIVOS 426PX */
 @media screen and (min-width:426px) {
-    /* ESTILOS DE MI NAV(generales) */
-    .nav{
-        justify-content: space-between;
-        align-items: center;
-    }
-    .nav-li{
-        display: inline-block;
-        margin: 0 5px;
-    }
-    .nav-li a{
-        text-decoration: none;
-    }
-    /* ESTILO DE MI FOOTER(generales)*/
+
+    /* ESTILO DE MI FOOTER(generales) */
     .footer-li{
         display: inline-block;
         margin: 0 5px;
@@ -335,11 +327,7 @@ main{
     height: 400px;
 }
 
-.apartado{
-    display: flex;
-}
-
-.apartado p{
+.section-gift-descrip{
     font-size: 30px ;
     text-align: center;
 }
@@ -419,64 +407,13 @@ header p{
         height: 310px;
     }
     .about,.apartado{
-        display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 }
 
 /* CONFIGURACION MEDIA QUERIE PARA DISPOSITIVOS 769PX */
 
 @media screen and (min-width:769px) {
-
-    .barraDeNav{
-        background-color: yellow;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    
-.nav{
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-}
-nav h2{
-    margin: 30px 15px;
-}
-
-nav ul{
-    margin: 0 15px;
-}
-.nav-li{
-    display: inline-block;
-
-    transition-duration: .5;
-    transition-delay: .2;
-    transition-timing-function: ease;
-}
-
-.nav-li:hover{
-    background-color: black;
-}
-
-.nav-li a{
-    text-decoration: none;
-    display: block;
-    text-transform: uppercase;
-    height: 88px;
-    line-height: 88px;
-    width: 88px;
-    text-align: center;
-}
-
-.nav-li a:hover{
-    color: white;
-}
-
-
-/* ESTILOS DE MI FOOTER(generales) */
 
 .footer{
     align-items: center;
