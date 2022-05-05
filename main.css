@@ -12,20 +12,46 @@ body{
 }
 /* -------------ESTILOS DE MI NAV------------------ */
 
+.barraDeNav{
+    background-color: yellow;
+}
+
 .nav{
     background-color: yellow;
-    border-style: solid;
-    border: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    line-height: 70px;
+    font-size: 1.5rem;
 }
-.nav-li{
+
+.nav ul{
+    width: auto;
+}
+
+.nav-item{
     display: block;
     margin: 0 5px;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
 }
-.nav-li a{
-    height: 100px;
+
+.nav-link{
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+}
+
+.nav-item:hover{
+    background-color: black;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+.nav-item .nav-link{
+    height: 90px;
     text-decoration: none;
     color: black;
 }
@@ -260,19 +286,8 @@ main{
 
 /* CONFIGURACION MEDIA QUERIE PARA DISPOSITIVOS 426PX */
 @media screen and (min-width:426px) {
-    /* ESTILOS DE MI NAV(generales) */
-    .nav{
-        justify-content: space-between;
-        align-items: center;
-    }
-    .nav-li{
-        display: inline-block;
-        margin: 0 5px;
-    }
-    .nav-li a{
-        text-decoration: none;
-    }
-    /* ESTILO DE MI FOOTER(generales)*/
+
+    /* ESTILO DE MI FOOTER(generales) */
     .footer-li{
         display: inline-block;
         margin: 0 5px;
@@ -397,54 +412,6 @@ header p{
 /* CONFIGURACION MEDIA QUERIE PARA DISPOSITIVOS 769PX */
 
 @media screen and (min-width:769px) {
-
-    .barraDeNav{
-        background-color: yellow;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    
-.nav{
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-}
-nav h2{
-    margin: 30px 15px;
-}
-
-nav ul{
-    margin: 0 15px;
-}
-.nav-li{
-    display: inline-block;
-
-    transition-duration: .5;
-    transition-delay: .2;
-    transition-timing-function: ease;
-}
-
-.nav-li:hover{
-    background-color: black;
-}
-
-.nav-li a{
-    text-decoration: none;
-    display: block;
-    text-transform: uppercase;
-    height: 88px;
-    line-height: 88px;
-    width: 88px;
-    text-align: center;
-}
-
-.nav-li a:hover{
-    color: white;
-}
-
-
-/* ESTILOS DE MI FOOTER(generales) */
 
 .footer{
     align-items: center;
