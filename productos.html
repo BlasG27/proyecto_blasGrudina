@@ -32,6 +32,7 @@
                   <a class="nav-link" href="contactos.html">Contacto</a>
                 </li>
               </ul>
+              <button type="button" class="btn btn-warning button">Menu</button>
         </div>
     </nav>
     <header class="encabezado-productos">
@@ -39,44 +40,43 @@
             <h3>Contamos con una amplia variedad de productos hechos con impresiones 3D lore.</h3>
             <h3>Todos nuestros productos son creados con insumos de muy alta calidad y pintados a mano, productos 100% genuinos.</h3>
     </header>
-    <main >
-        <section class="section-mates">
-            <h2 class="resaltar" >Mates</h2>
-            <div class="divs">
-            <img class="imagen-producto" src="imagenes/mate2.jpg" alt="mate2">
-            <img class="imagen-producto" src="imagenes/mate3.jpg" alt="mate3">
-            <img class="imagen-producto" src="imagenes/mate4.jpg" alt="mate4">
-            <img class="imagen-producto" src="imagenes/mate5.jpg" alt="mate5">
-            <img class="imagen-producto" src="imagenes/mate6.jpg" alt="mate6">
-            <img class="imagen-producto" src="imagenes/mate7.jpg" alt="mate7">
-            <img class="imagen-producto" src="imagenes/mate8.jpg" alt="mate8">
-        </div>
+    <main class="container">
+        <section class="row d-flex justify-content-around">
+            <div class="card col-sm-12 col-md-4" style="width: 20rem;">
+                <img src="imagenes/mate5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mates!</h5>
+                  <p class="card-text">En esta seccion encontraras todo nuestro apartado de mates originales, pensado por nosotros y nuestros clientes</p>
+                  <a href="productos.html" class="btn btn-primary">Ir a Mates!</a>
+                </div>
+
+              </div>
+              <div class="card col-sm-12 col-md-4" style="width: 20rem;">
+                <img src="imagenes/maceta1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Munecos!</h5>
+                  <p class="card-text">En esta seccion encontraras todo nuestro apartado de Munecos originales, pensado por nosotros y nuestros clientes.</p>
+                  <a href="productos.html" class="btn btn-primary">Ir a Munecos</a>
+                </div>
+
+              </div>
+              <div class="card col-sm-12 col-md-4" style="width: 20rem;">
+                <img src="imagenes/otro1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Otros!</h5>
+                  <p class="card-text">En esta seccion encontraras todo nuestro apartado de Originalidades, pensado por nosotros y nuestros clientes.</p>
+                  <a href="productos.html" class="btn btn-primary">Ir a Originalidades!</a>
+                </div>
+              </div>
+              
         </section>
 
-        <section class="section-munecos">
-            <h2 class="resaltar" >muñecos</h2>
-            <div class="divs">
-            <img class="imagen-producto" src="imagenes/nosotros.jpg" alt="figura1">
-            <img class="imagen-producto" src="imagenes/figura2.jpg" alt="figura2">
-        </div>
-        </section>
-
-        <section class="section-otros">
-            <h2 class="resaltar" >Otros diseños</h2>
-            <div class="divs">
-            <img class="imagen-producto" src="imagenes/maceta1.jpg" alt="maceta1">
-            <img class="imagen-producto" src="imagenes/mate2.jpg" alt="maceta2">
-            <img class="imagen-producto" src="imagenes/otro1.jpg" alt="otro1">
-            <img class="imagen-producto" src="imagenes/otro3.jpg" alt="otro3">
-        </div>
-            <p>aca encontraran macetas, lapiceros y productos originales de los clientes</p>
-        </section>
         <hr>
-        <section class="section-table">
-            <p>
+        <section class="section-table row">
+            <p class="col-12">
                 Cantida de productos hechos hasta la fecha
             </p>
-            <table>
+            <table class="col-12">
                 <thead>
                     <tr>
                         <th>
@@ -106,7 +106,6 @@
                     <td>
                         35
                     </td>
-
                 </tbody>
             </table>
         </section>
