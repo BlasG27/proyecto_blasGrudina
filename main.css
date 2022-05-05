@@ -35,6 +35,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .encabezado h1{
@@ -59,7 +60,7 @@ header p{
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
-    width: 300px;
+    width: 280px;
     font-size: 50px;
     display: flex;
     align-items: center;
@@ -71,7 +72,7 @@ header p{
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
-    width: 300px;
+    width: 280px;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -117,9 +118,6 @@ header p{
     align-items: center;
 }
 
-.main-nosotros div p{
-    font-size: 20px;
-}
 .about-imagen{
     width: 300px;
 }
@@ -128,7 +126,7 @@ header p{
 }
 
 .about p{
-    margin: 40px;
+    margin: 20px;
     font-size: 35px;
 }
 
@@ -140,40 +138,19 @@ header p{
 
 /* -----------ESTILOS DE MI MAIN, PARTE GIFTCARD-------------- */
 
-#giftcard{
-    font-size: 30px;
-    text-align: center;
-}
-
-.giftcard1{
-    height: 300px;
-}
-
 .apartado{
     display: flex;
+    justify-content: space-between;
 }
 
 .apartado p{
-    font-size: 30px ;
+    font-size: 35px ;
+    text-align: center;
+} 
+
+#giftcard{
     text-align: center;
 }
-
-.main-giftcard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.main-giftcard div{
-    margin:0 30px;
-}
-
-.main-giftcard div p{
-    font-size: 30px;
-}
-
 /* --------------------MAIN PRODUCTOS---------------------- */
 
 main{
@@ -335,11 +312,7 @@ main{
     height: 400px;
 }
 
-.apartado{
-    display: flex;
-}
-
-.apartado p{
+.section-gift-descrip{
     font-size: 30px ;
     text-align: center;
 }
@@ -417,10 +390,7 @@ header p{
         height: 310px;
     }
     .about,.apartado{
-        display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 }
 

@@ -43,43 +43,52 @@
             <h1>Lo Pensas, <span class="resaltar"> Lo diseñamos!</span></h1>
             <p>Regalar algo original, distinto! eso es tu imaginacion en 3D</p>
     </header>
-    <main id="main2">
-        <section class="productos">
-            <div class="mates">
+    <main id="main2" class="container">
+        <section class="productos" class="row">
+            <div class="mates" class="col-sm-12 col-md-6">
                 <a href="productos.html">Mates</a>
             </div>
 
-            <div class="munecos">
-            <a href="productos.html">Muñecos</a>
+            <div class="munecos" class="col-sm-12 col-md-6">
+                <a href="productos.html">Muñecos</a>
             </div>
         </section>
-        <div class="descripcion-producto">
-        <h2 class="resaltar">Productos</h2>
-                <p>Usamos insumos de primera calidad para lograr el mejor producto final.</p>
-        </div>       
+
+        <section class="descripcion-producto" class="row">
+            <h2 class="resaltar" class="col">Productos</h2>
+        </section> 
+
+        <section class="descripcion-producto" class="row">
+            <p class="col">Usamos insumos de primera calidad para lograr el mejor producto final.</p>
+        </section> 
+
         <hr>
-        <h2 >Un poco sobre <span class="resaltar">Nosotros</span></h2>
-        <section class="about">
-            <div>
-            <a href="nosotros.html"><img class="about-imagen" src="imagenes/tuimaginacion.jpg" alt="TuImaginacionEn3D"></a>
-            </div>
-            <p>tu imaginacion en 3d inicio como un pequeño emprendimiento   para sobrellevar la pandemia.
+
+        <section class="row">
+                <h2 class="col">Un poco sobre <span class="resaltar">Nosotros</span>
+                </h2>
+        </section>
+
+        <section class="about" class="row">
+                <a href="nosotros.html" class="col-sm-12 col-md-6"><img class="about-imagen" src="imagenes/tuimaginacion.jpg" alt="TuImaginacionEn3D"></a>
+                <p class="col-sm-12 col-md-6">tu imaginacion en 3d inicio como un pequeño emprendimiento       para sobrellevar la pandemia.
                 buscamos crear diseños en base a la imaginacion del cliente.
-            </p>
+                </p>
         </section>
+
         <hr>
-        <section class="clientes">
-            <h3 id="giftcard" class="resaltar">giftcard</h3>
-            <div class="apartado">
-                <div>
-                    <img class="about-imagen" src="imagenes/giftcard.jpg" alt="giftcard">
-                </div>
-                <div>
-                    <p>queres regalar algo original y distinto pero no sabes bien que elegir? esta es la tarjeta ideal</p>
-                </div>
-            </div>
+
+        <section class="row">
+                <h3 id="giftcard" class="resaltar" class="col">giftcard</h3>
         </section>
+
+        <section class="row apartado section-gift">
+                    <img class="about-imagen col-sm-12 col-md-6" src="imagenes/giftcard.jpg" alt="giftcard">
+                    <p class="col-sm-12 col-md-6 section-gift-descrip">queres regalar algo original y distinto pero no sabes bien que elegir? esta es la tarjeta ideal</p>
+        </section>
+
     </main>
+
     <footer class="footer">
         <h2 >Tu maginacion En 3D</h2>
         <ul>
